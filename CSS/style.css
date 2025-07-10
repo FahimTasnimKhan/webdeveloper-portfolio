@@ -1,0 +1,64 @@
+/* Color */
+.dark-primary {
+  color: #fd6e0a;
+}
+.dark-2 {
+  color: #474747;
+}
+/* Button */
+.btn-primary {
+  background-color: #fd6e0a;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 18px 35px 19px 36px;
+  border: none;
+  border-radius: 5px;
+}
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+/* Nav Style */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 200px;
+}
+
+.nav-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 45px;
+}
+
+.nav-title span {
+  color: #fd6e0a;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 51px;
+}
+
+nav ul a {
+  color: #474747;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+nav ul a:visited {
+  color: #474747;
+}
