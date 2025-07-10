@@ -5,6 +5,10 @@
 .dark-2 {
   color: #474747;
 }
+
+.dark-3 {
+  color: #757575;
+}
 /* Button */
 .btn-primary {
   background-color: #fd6e0a;
@@ -22,6 +26,14 @@
   font-weight: 400;
   font-style: normal;
   font-variation-settings: "wdth" 100;
+}
+
+/*Header*/
+.header {
+  background-image: url(../images/developer.png), url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  background-color: #fff8f3;
 }
 
 /* Nav Style */
@@ -61,4 +73,32 @@ nav ul a {
 
 nav ul a:visited {
   color: #474747;
+}
+
+/* Hero Section */
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 35px 0 230px;
+}
+
+.banner-greetings {
+  font-size: 45px;
+  font-weight: 600;
+}
+.banner-title {
+  font-weight: 800;
+  font-size: 85px;
+}
+.banner-description {
+  font-weight: 400;
+  font-size: 18px;
+  color: #757575;
+}
+
+.banner-profile-pic {
+  width: 584px;
+  height: 676px;
 }
