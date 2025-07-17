@@ -1,3 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 /* Color */
 .color-primary {
   color: #fd6e0a;
@@ -262,5 +272,39 @@ textarea {
   gap: 24px;
 }
 
-
 /* Responsive Media Query */
+.hide {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    padding: 10px;
+    font-size: 16px;
+    flex-direction: column;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Skills Section */
+  .skills-container {
+    flex-direction: column;
+  }
+
+  /* Resume Section */
+  .resume-container {
+    flex-direction: column;
+  }
+
+  footer {
+    flex-direction: column;
+    padding: 0px;
+  }
+
+  .footer-column {
+    width: 100%;
+  }
+}
